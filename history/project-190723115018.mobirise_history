@@ -130,7 +130,9 @@
     "versionPublish": "4.10.0",
     "screenshot": "screenshot.png",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "publishType": "local",
+    "publishPath": "file:///Users/gosam/Desktop/New%20Veda"
   },
   "pages": {
     "gallery.html": {
