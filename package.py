@@ -3,12 +3,16 @@ from Jumpscale import j
 class Package(j.baseclasses.threebot_package):
     """
     to start need to run 
-    kosmos -p "j.tools.threebot_packages.get('veda_egypt',giturl='https://github.com/veda-websites/www_veda-egypt_com.git',branch='master')"
+
+    kosmos -p "j.tools.threebot_packages.get('veda_egypt_stag',giturl='https://github.com/veda-websites/www_veda-egypt_com.git',branch='development')"
+
     kosmos -p "j.servers.threebot.default.start(web=True, ssl=False)"
     """
     def _init(self, **kwargs):
         self.branch = kwargs["package"].branch or "master"
-        self.veda_egypt = "https://github.com/veda-websites/www_veda-egypt_com.git"
+
+        self.veda_egypt_stag = "https://github.com/veda-websites/www_veda-egypt_com.git"
+
 
     def prepare(self):
         """
@@ -18,14 +22,16 @@ class Package(j.baseclasses.threebot_package):
         server = self.openresty
         server.install(reset=True)
         server.configure()
-        website = server.websites.get("veda_egypt")
+
+        website = server.websites.get("veda_egypt_stag")
         website.ssl = False
         website.port = 80
-        locations = website.locations.get("veda_egypt")
+        locations = website.locations.get("veda_egypt_stag")
         static_location = locations.locations_static.new()
         static_location.name = "static"
         static_location.path_url = "/"
-        path = j.clients.git.getContentPathFromURLorPath(self.veda_egypt, branch=self.branch, pull=True)
+        path = j.clients.git.getContentPathFromURLorPath(self.veda_egypt_stag, branch=self.branch, pull=True)
+
         static_location.path_location = path
         static_location.use_jumpscale_weblibs = True
         website.path = path
