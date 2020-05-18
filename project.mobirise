@@ -135,7 +135,8 @@
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "imageResize": true
   },
   "pages": {
     "gallery.html": {
