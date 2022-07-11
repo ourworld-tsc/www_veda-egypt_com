@@ -2008,7 +2008,10 @@ section.lazy-placeholder:after {
   }
 }
 .cid-ruoJBljyl2 .mbr-links-column {
-  color: #232323;
+  color: #7aa759;
+}
+.cid-ruoJBljyl2 .foot-logo {
+  color: #7aa759;
 }
 .cid-ru8vvJ69DI {
   padding-top: 30px;
@@ -2527,6 +2530,9 @@ section.lazy-placeholder:after {
   .cid-ruC5TTrYRc .form-group {
     margin: 0;
   }
+}
+.cid-ruC5TTrYRc .mbr-links-column {
+  color: #7aa759;
 }
 .cid-ruC5YT4utq {
   padding-top: 30px;
@@ -3404,120 +3410,6 @@ section.lazy-placeholder:after {
 }
 .cid-ru9iPPFPV9 .mbr-text {
   color: #232323;
-}
-.cid-ru7lf0Wdrc {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-ru7lf0Wdrc .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
-}
-.cid-ru7lf0Wdrc .form-control,
-.cid-ru7lf0Wdrc .field-input {
-  padding: 0.5rem;
-  background-color: #ffffff;
-  border-color: #cccccc;
-  color: #000000;
-  transition: 0.4s;
-  box-shadow: none;
-  outline: none;
-}
-.cid-ru7lf0Wdrc .form-control input::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .field-input input::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .form-control textarea::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .field-input textarea::-webkit-input-placeholder {
-  color: #c1c1c1;
-}
-.cid-ru7lf0Wdrc .form-control input:-moz-placeholder,
-.cid-ru7lf0Wdrc .field-input input:-moz-placeholder,
-.cid-ru7lf0Wdrc .form-control textarea:-moz-placeholder,
-.cid-ru7lf0Wdrc .field-input textarea:-moz-placeholder {
-  color: #c1c1c1;
-}
-.cid-ru7lf0Wdrc .form-control:hover,
-.cid-ru7lf0Wdrc .field-input:hover,
-.cid-ru7lf0Wdrc .form-control:focus,
-.cid-ru7lf0Wdrc .field-input:focus {
-  background-color: #efefef;
-  border-color: #000000;
-  color: #ffffff;
-  box-shadow: none;
-  outline: none;
-}
-.cid-ru7lf0Wdrc .form-control:hover input::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .field-input:hover input::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .form-control:focus input::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .field-input:focus input::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .form-control:hover textarea::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .field-input:hover textarea::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .form-control:focus textarea::-webkit-input-placeholder,
-.cid-ru7lf0Wdrc .field-input:focus textarea::-webkit-input-placeholder {
-  color: #000000;
-}
-.cid-ru7lf0Wdrc .form-control:hover input:-moz-placeholder,
-.cid-ru7lf0Wdrc .field-input:hover input:-moz-placeholder,
-.cid-ru7lf0Wdrc .form-control:focus input:-moz-placeholder,
-.cid-ru7lf0Wdrc .field-input:focus input:-moz-placeholder,
-.cid-ru7lf0Wdrc .form-control:hover textarea:-moz-placeholder,
-.cid-ru7lf0Wdrc .field-input:hover textarea:-moz-placeholder,
-.cid-ru7lf0Wdrc .form-control:focus textarea:-moz-placeholder,
-.cid-ru7lf0Wdrc .field-input:focus textarea:-moz-placeholder {
-  color: #000000;
-}
-.cid-ru7lf0Wdrc .jq-number__spin:hover,
-.cid-ru7lf0Wdrc .jq-number__spin:focus {
-  background-color: #efefef;
-  border-color: #000000;
-  color: #ffffff;
-  box-shadow: none;
-  outline: none;
-}
-.cid-ru7lf0Wdrc .jq-number__spin {
-  background-color: #ffffff;
-  border-color: #cccccc;
-  color: #000000;
-  transition: 0.4s;
-  box-shadow: none;
-  outline: none;
-}
-.cid-ru7lf0Wdrc .jq-selectbox li,
-.cid-ru7lf0Wdrc .jq-selectbox li {
-  background-color: #ffffff;
-  color: #000000;
-}
-.cid-ru7lf0Wdrc .jq-selectbox li:hover,
-.cid-ru7lf0Wdrc .jq-selectbox li.selected {
-  background-color: #efefef;
-  color: #000000;
-}
-.cid-ru7lf0Wdrc .jq-selectbox:hover .jq-selectbox__trigger-arrow,
-.cid-ru7lf0Wdrc .jq-number__spin.minus:hover:after,
-.cid-ru7lf0Wdrc .jq-number__spin.plus:hover:after {
-  border-top-color: #ffffff;
-  border-bottom-color: #ffffff;
-}
-.cid-ru7lf0Wdrc .jq-selectbox .jq-selectbox__trigger-arrow,
-.cid-ru7lf0Wdrc .jq-number__spin.minus:after,
-.cid-ru7lf0Wdrc .jq-number__spin.plus:after {
-  border-top-color: #efefef;
-  border-bottom-color: #efefef;
-}
-.cid-ru7lf0Wdrc input::-webkit-clear-button {
-  display: none;
-}
-.cid-ru7lf0Wdrc input::-webkit-inner-spin-button {
-  display: none;
-}
-.cid-ru7lf0Wdrc input::-webkit-outer-spin-button {
-  display: none;
-}
-.cid-ru7lf0Wdrc input::-webkit-calendar-picker-indicator {
-  display: none;
-}
-.cid-ru7lf0Wdrc H4 {
-  color: #0f7666;
 }
 .cid-ruC5JgeHJr {
   padding-top: 60px;
