@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Veda Egypt",
-    "currentPage": "gallery.html",
+    "currentPage": "dahabiyas.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -142,7 +142,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "gallery.html": {
@@ -223,7 +225,7 @@
             }
           },
           "_name": "gallery3",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-show-filter mbr-gallery-spacing=\"0\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-show-filter=\"\"></div>\n    </div>\n\n</section>",
           "_anchor": "gallery3-5o",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -424,17 +426,17 @@
                 "active": false
               },
               {
-                "tags": "The Nile",
+                "tags": "People",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-05-52-1024x640.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-05-52-1024x640-800x500.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-1680-1-1280x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-1680-1-1280x800-800x500.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Escribir subtítulo aquí",
-                "active": true
+                "active": false
               },
               {
                 "tags": "People",
@@ -772,7 +774,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Escribir subtítulo aquí",
-                "active": false
+                "active": true
               },
               {
                 "tags": "People",
@@ -807,58 +809,6 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/yoga-on-deck-2-1280x800.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/yoga-on-deck-2-1280x800-800x500.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "Experiences",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-07-26-1280x960.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-07-26-1280x960-800x600.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "People",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-06-57-1024x461.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-06-57-1024x461-491x368.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "People",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-06-13-1024x640.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-06-13-1024x640-682x512.jpeg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Escribir subtítulo aquí",
-                "active": false
-              },
-              {
-                "tags": "Experiences",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-06-4-1024x682.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-2022-07-21-00-06-4-1024x682-727x545.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -8541,7 +8491,7 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.33.56-pm-2000x1496.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.33.56%20pm-2000x1496.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8558,7 +8508,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.33.23-pm-2000x1494.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.33.23%20pm-2000x1494.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8592,7 +8542,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.34.20-pm-2000x1499.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.34.20%20pm-2000x1499.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8643,7 +8593,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.33.34-pm-1750x1306.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.33.34%20pm-1750x1306.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8660,7 +8610,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.33.43-pm-1744x1302.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.33.43%20pm-1744x1302.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8694,7 +8644,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.36.07-pm-2000x1496.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.36.07%20pm-2000x1496.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8711,7 +8661,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.36.27-pm-1222x1502.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.36.27%20pm-1222x1502.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -8728,7 +8678,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/screen-shot-2022-07-20-at-10.36.48-pm-1744x1308.png",
+                "image": "@PROJECT_PATH@/assets/images/screen%20shot%202022-07-20%20at%2010.36.48%20pm-1744x1308.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
