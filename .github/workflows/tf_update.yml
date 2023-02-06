@@ -12,10 +12,10 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: www2.veda-egypt.com
-        username: root
+        username: ${{ secrets.TF_USER }}
         key: ${{ secrets.TF_SECRET }}
-        port: 22
+        port: ${{ secrets.TF_PORT }}
         script: |
-          cd /opt/www_veda-egypt_com/
+          cd ~/websites/www2/www_veda-egypt_com
           git log -1
           git pull
