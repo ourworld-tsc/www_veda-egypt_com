@@ -1,9 +1,12 @@
-# www_veda-egypt_com
+## About
 
-Published on github pages on https://ourworld-tsc.github.io/www_veda-egypt_com/index.html
+The official website of Veda Egypt, built using Mobirise.
 
-Life: https://veda-egypt.com/
+[https://veda-egypt.com](https://veda-egypt.com)
 
-## how to contribute
+Last Updated: March 2023
 
-> TODO copy content from other mobirise site to allow 
+## Contribution
+
+Feel free to [create a new issue](https://github.com/ourworld-tsc/www_veda-retreats/issues) to report an error on the website, or if you have any suggestions on website improvements. 
+
